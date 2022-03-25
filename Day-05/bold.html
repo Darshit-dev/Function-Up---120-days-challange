@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bold</title>
+    <script>
+        //project is to do underline ,bold ,italic in content
+        function boldme() {
+            document.getElementById("test").innerHTML = "<strong>" +
+                document.getElementById("test").innerHTML + "</strong>"
+        }
+        //strong keyword para ke pahele addd hoga ki pura contanr replace kar dega?
+        function italicme() {
+            document.getElementById("test").innerHTML = "<em>" +
+                document.getElementById("test").innerHTML + "</em>"
+        }
+        function underlineme() {
+            document.getElementById("test").innerHTML = "<u>" +
+                document.getElementById("test").innerHTML + "</u>"
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <P id="test">
+        Trying to build google docs's bold,italic and underline feature
+    </P>
+    <input type="button" value="B" onclick=boldme()>
+    <input type="button" value="I" onclick=italicme()>
+    <input type="button" value="U" onclick=underlineme()>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+/** @format */
+
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.child {
+	display: flex;
+	padding: 20px;
+	flex-direction: column;
+	border: 1px solid;
+	text-align: center;
+	border: 10px #6a6fd8 solid;
+	background-color: rgb(255, 255, 255);
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	border-radius: 10 px;
+}
+
+h3 {
+	font-size: 10px;
+	color: #888888;
+}
+
+#joke {
+	padding: 20px;
+	font-size: 20px;
+}
+
+#jokeBtn {
+	background-color: #a36ad9;
+	width: fit-content;
+	border: 0px;
+	box-shadow: 10px;
+	color: white;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+	border: 0px solid red;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+	align-self: center;
+}
