@@ -8,9 +8,10 @@
     <title>Number sorting in accentding order</title>
 
     <script>
-        var arr = [1, 45, 86, 78, 12, 5, 26]
-        arr.sort()
+        var arr = [78, 50, 75]
         console.log(arr)
+        arr.sort(function perfactSorting(a, b) { return a - b })
+        console.log("Number array after sorting\n" + arr)
     </script>
 </head>
 
