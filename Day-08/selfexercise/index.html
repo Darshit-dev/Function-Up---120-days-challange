@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise</title>
+</head>
+<script>
+    function myFun(myForm) {
+        var a = myForm.age.value;
+        console.log(a);
+        if (a > 18) {
+            document.write('You are old enough to drive')
+        }
+        else {
+            document.write(`you are left with  ${18 - a}`)
+        }
+
+    }
+</script>
+
+<body>
+    <form>
+        Enter your age : <input type="number" name="age">
+        <input type="button" value="check" onclick="myFun(this.form)">
+    </form>
+</body>
+
+</html>
