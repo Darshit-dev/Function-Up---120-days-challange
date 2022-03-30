@@ -102,9 +102,48 @@ console.log('spread operator' + arrTwo)
   const person = {
     name: 'darshit',
     place: 'surat',
+    age: '21',
   }
 
   const a = 'place' // as per value , output will change
   console.log(person[a]) // square is used for dynamic reading
-  console.log(person.a) // it throws error "undefined", becaue there is no such key "a"
+  //console.log(person.a) // it throws error "undefined", becaue there is no such key "a"
+  console.log(Object.keys(person))
+  console.log(Object.values(person))
+  console.log(Object.entries(person) + '\n')
+}
+
+{
+  const person = {
+    name: 'darshit',
+    place: 'surat',
+    10: 21, // value are not restricted in any way
+  }
+  const keys = Object.keys(person)
+  console.log(keys) //  output will be in array
+  console.log(typeof keys[0]) // can be access key via index
+  //number key will convert into string
+  person.place = 'banglure'
+  console.log(person) // we use const although value can be modified in obejct
+
+  //rules for key
+  //   1.can not be numbers
+  //   2.can not have spaces , if needed we need to do ""
+  //   3.all the key are in string format
+}
+
+{
+  //key not be duplicated , if yes then last duplicated key will be considered.
+  //(value)data can be reapted
+}
+
+{
+  //how to set object fully immutable?
+  //const person = {
+  // name: 'darshit',
+  //   place: 'surat',
+  // }
+  //Object.freez(person) // by this way
+  // person.place = 'Banglure' // will not change
+  // console.log(person)
 }
