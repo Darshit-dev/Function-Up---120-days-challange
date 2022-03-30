@@ -44,7 +44,12 @@ console.log('spread operator' + arrTwo)
   function sum(...z) {
     console.log(z) // it will print value in array
     console.log(typeof z) //object which includes array
-    //how I have all the number s that a use enterd in an array?
+    //how I have all the numbers that a use enterd in an array?
   }
   sum(10, 52, 013, 15)
 }
+
+//mutability and immutability
+// benefit
+//    Time travel,
+//     Predictability,
