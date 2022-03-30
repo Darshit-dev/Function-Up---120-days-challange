@@ -53,3 +53,58 @@ console.log('spread operator' + arrTwo)
 // benefit
 //    Time travel,
 //     Predictability,
+
+//how to read array
+
+{
+  const arr = [2, { name: 'darshit' }]
+  console.log(arr[1].name) //access object from array
+}
+
+//object creation
+{
+  const a = {
+    name: 'darshit',
+    city: 'surat',
+    //how to add array in objects
+  }
+}
+
+//delete cell from first element - use shift()
+//delete cell from last element - use pop()
+
+// ===object===
+{
+  const person = {
+    age: 21,
+    name: 'darshit',
+  }
+  delete person.name //delete key like this element
+  console.log(person)
+}
+
+// distuctor in object
+{
+  const person = {
+    name: 'darshit',
+    place: 'surat',
+  }
+  // const name = person.name
+  // const place = person.place
+  //above is old way of doing
+
+  const { name, place } = person
+  console.log(person) // new and easy way to dstructure object
+}
+
+//how to access object key via [] - used for dynamic key - to be tunderstand
+{
+  const person = {
+    name: 'darshit',
+    place: 'surat',
+  }
+
+  const a = 'place' // as per value , output will change
+  console.log(person[a]) // square is used for dynamic reading
+  console.log(person.a) // it throws error "undefined", becaue there is no such key "a"
+}
