@@ -1,0 +1,43 @@
+const arr =[{name:'darshit'},{name:'surat'}]
+
+function check(a){
+ 
+   const filterArray = arr.filter((item,index)=>item.name===a.name)
+   if(filterArray.length===0){
+       return false
+   }
+   else {
+       return true
+   }
+}
+
+
+console.log(check({name:'safdf'}))
+
+
+{
+    const arr = [1,2,3,5].map((a)=>a*2)
+    console.log(arr)
+}
+
+{
+    let user = {
+        name: "Nathan",
+        username: null,
+        age: 25,
+        role: "Software Engineer",
+        address: undefined
+      }
+      
+      let objArr = Object.entries(user);
+      console.log(objArr)
+      const filteredUser = objArr.filter(function ([key, value]) {
+        return !value; // the condition for filter. Change this as you need.
+      });
+      
+      const newObj = Object.fromEntries(filteredUser);
+      console.log(newObj); 
+}
+
+
+

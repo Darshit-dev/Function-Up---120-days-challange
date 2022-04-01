@@ -213,6 +213,9 @@ const num = 450;
  * you are getting the right answer
  * example: const num = 250
  */
+if(typeof num !== "number" || typeof num === "null"){
+    console.log("Please enter a number")
+}
 if((num>100 && num<200) || (num>400 && num<500))
 {
     console.log("true")
@@ -262,8 +265,8 @@ else if(numThree>numOne && numThree>numTwo){
 // Otherwise it should print false
 console.log("\nproblem 11\n")
 {
- const a = 7;
- const b = 8;
+ const a = 10;
+ const b = 2;
 /**
  * use the a and b variable as user input.
  * 
