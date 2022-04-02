@@ -38,7 +38,7 @@ console.log(b);
 
 {//pass  by reference
     let person = {
-        name:'siraj',
+        name:'Darshit',
         age:20
     }
     let anotherPerson = person;
@@ -51,7 +51,7 @@ console.log(b);
     console.log(anotherPerson);
     //it will change both person and another person values
 
-    console.log(person==anotherPerson); //true
+    console.log(person===anotherPerson); //true
     console.log(person===anotherPerson); //true
 
 
@@ -60,7 +60,7 @@ console.log(b);
         name:'Dk',
         residance:{ //residance key has an address of object
             city:'surat',
-            state:'gujarat'
+            state:'gujarat' 
         }
         //all operation/tool in javasctipt => shallow copy(first level pe copy hoga)
     }
@@ -77,17 +77,19 @@ console.log(b);
 
     }
 
-    {//deep copy
+    {console.log("\ndeep copy\n")
         const shallow = {...person1} //it will create a new object and copy all the values of person1 expacet the address of object
         const deepCopy ={...person1,residence:{...person1.residance}};
         //  it will create a new object and copy all the values of person1 and also the address of object
 
         //deep copy is used when we want to create a copy of object and also the address of object
         
-        console.log(shallow);
-        console.log(deepCopy.residance==person1.residance);
+        //console.log(shallow);
+        console.log(deepCopy);
+        console.log(deepCopy.residance===person1.residance);
         deepCopy.residance.city = 'mumbai';  
-        console.log(deepCopy.residance==person1.residance); 
+        console.log(deepCopy);
+        console.log(deepCopy.residance===person1.residance); 
 
 
 

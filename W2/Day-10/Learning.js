@@ -108,7 +108,7 @@ console.log('spread operator' + arrTwo)
   const a = 'place' // as per value , output will change
   console.log(person[a]) // square is used for dynamic reading
   //console.log(person.a) // it throws error "undefined", becaue there is no such key "a"
-  console.log(Object.keys(person))
+  console.log( Object.keys(person))
   console.log(Object.values(person))
   console.log(Object.entries(person) + '\n')
 }

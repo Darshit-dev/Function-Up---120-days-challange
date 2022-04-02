@@ -5,17 +5,17 @@ const morePlaces = ['kochi', 'hyderabad', 'Shimla', 'Srinagar']
 
 		
 // ============================================================================= //
-console.log("\nproblem 1\n")
+//1.
 // remove first element from places array and print the remaining array 
 const [first,...lasTthree] = places
-let result= lasTthree
+result= lasTthree
 console.log(result)
 //result = ['gurgaon', 'jaipur', 'pune']
 
 
 
 // ============================================================================= //
-console.log("\nproblem 2\n")
+//2.
 // insert that element at the start of the morePlaces array and print the new array
 // result =  ['delhi', 'kochi', 'hyderabad', 'Shimla', 'Srinagar']
 const firstA= first;
@@ -25,16 +25,11 @@ console.log(Fresult)
 
 
 // ============================================================================= //
-console.log("\nproblem 3\n")
+// 3.
 // take out last three element from the morePlacesArray and take out first three elements from the places array 
 // and print the combined array
 //result =  ['hyderabad', 'Shimla', 'Srinagar', 'delhi', 'gurgaon', 'jaipur',]
-{
-const [first, ...lastThree] = morePlaces
-const [firstA,secondA,thirdA, ...lastThreeA] = places
-const finalResult = [...lastThree, firstA,secondA,thirdA]
-console.log(finalResult)
-}
+
 
 
 const myData = {
@@ -48,16 +43,14 @@ const myData = {
     likes:["music", "movies"]
   }
   
-console.log("\nProblem 4\n")
+// 4.
 // destructure and store pincode into a variable named myPincode
       const { address:{pinCode} } = myData
       const myPincode = pinCode
       console.log(myPincode)
-
-
-     
+// 5.
 // destructure and store second like into a vaiable named myLike
-console.log("\nProblem 5\n")
+
 const {likes} = myData
 myLike = likes[1]
 console.log(myLike)
