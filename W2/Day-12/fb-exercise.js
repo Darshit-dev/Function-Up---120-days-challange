@@ -68,7 +68,7 @@ const facebookProfiles = [
 console.log("\nProblem : 0 --- complete the above function such that when it is called with name and property, then it should return its value")
 function profileLookup(name, property) {
     
-    for(const item of facebookProfiles){
+    for(const item of facebookProfiles){ //for of 
         if(item.firstName === name){
             if(item.hasOwnProperty(property)){
                 return (item[property]);
@@ -229,7 +229,7 @@ console.log(JSON.stringify(getFullName()))
 
 
 
-// ===================================== 5 =================================== //
+// ==b=================================== 5 =================================== //
 // 5. write a function which returns all likes of all the people in an array
 //hint: use spread syntax
 //ans = ['music', 'movies', 'code', 'podcasts', 'travel', 'driving', 'food', 'mobile']
@@ -272,7 +272,7 @@ console.log(getAllLikes())
 
 
 
-// ====================================== 6 ================================== //
+// =============4========================= 6 ================================== //
 
 
 
@@ -281,7 +281,7 @@ console.log(getAllLikes())
 console.log("\nproblem 6:")
 function getNameFromDelhiWithDL(facebookProfiles) {
     const getNames=facebookProfiles.filter(array => array.address.location==="delhi");
-    if(getNames[0] === undefined){
+    if(getNames.length === 0){
         return "No such Person"
     }else{
         return getNames.map(items => items.firstName + " " + (items.lastName ? items.lastName + " - " : '- ') + (items.hasDrivingLicense ? "D/L" : "No D/L"));
@@ -308,9 +308,9 @@ function getNameOfDriverWithoutDL() {
 
     const output = facebookProfiles.filter((people)=> people.likes?.includes("driving")&&(people.hasDrivingLicense===false)).map((fname)=>fname.firstName)  
     
-    return output[0]
+    return console.log(...output)
 }
-console.log(getNameOfDriverWithoutDL())
+getNameOfDriverWithoutDL()
 
 {
     console.log("/7th problem : with for loop")

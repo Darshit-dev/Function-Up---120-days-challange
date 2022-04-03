@@ -57,11 +57,11 @@ const facebookProfiles = [
     },
 ];
 
-function getFullName(){
-    function getF(getfname)
-    {
-        return getfname.firstName;
-    }
-    const  output  = facebookProfiles.map(getF)
+function getNameOfDriver(facebookrofiles){
+    const getName = facebookProfiles.filter(el =>(el.likes?.includes("driving")) && (el.hasDrivingLicense==false)).map(x=>x.firstName)
+    
+    //console.log(getName)
+    return console.log(...getName)
+
 }
-console.log(getFullName())
+getNameOfDriver(facebookProfiles)
