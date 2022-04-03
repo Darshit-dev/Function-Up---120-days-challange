@@ -56,9 +56,7 @@ a.forEach((item) => console.log(item));
 //   const[{fp[0].like}] = fp
 //   console.log(...likes)
 // }
+
 {
-  console.log("\ndest")
-  let a,b;
-  [a,b]=[34,69]
-  console.log(a,b)
+        
 }
