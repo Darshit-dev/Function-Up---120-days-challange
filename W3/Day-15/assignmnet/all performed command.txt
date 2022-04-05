@@ -1,0 +1,115 @@
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15 (main)
+$ ls
+ assignmnet/  'what is learn today.txt'
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15 (main)
+$ cd assignmnet
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ ls
+destination/  source/
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ cd source
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ ls
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ touch new.txt
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ cat  new.txt
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ cat > new.txt
+i added new contect here
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ cat new.text
+cat: new.text: No such file or directory
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ cat new.txt
+i added new contect here
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ pwd
+/h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ cd ..
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ ls
+destination/  source/
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ cp source/new.txt destination/
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ ls
+destination/  source/
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ cd destination
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/destination (main)
+$ ls
+new.txt
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/destination (main)
+$ cat new.txt
+i added new contect here
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/destination (main)
+$ pwd
+/h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/destination
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/destination (main)
+$ rm new.txt
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/destination (main)
+$ ls
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/destination (main)
+$ cd ..
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ ls
+destination/  source/
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ mv source/new.txt destination/
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ ls
+destination/  source/
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ cd source
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ ls
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/source (main)
+$ cd ..
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ ls
+destination/  source/
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ cd desniation
+bash: cd: desniation: No such file or directory
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet (main)
+$ cd destination
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/destination (main)
+$ ls
+new.txt
+
+busin@TheBest MINGW64 /h/Code devlopment/Function Up - 120 days challange/W3/Day-15/assignmnet/destination (main)
+$
