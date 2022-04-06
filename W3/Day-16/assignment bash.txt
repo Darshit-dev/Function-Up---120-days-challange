@@ -1,0 +1,78 @@
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up
+$ gin clone https://github.com/sabihak89/uranium.git
+bash: gin: command not found
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up
+$ git clone https://github.com/sabihak89/uranium.git
+Cloning into 'uranium'...
+remote: Enumerating objects: 620, done.
+remote: Counting objects: 100% (620/620), done.
+remote: Compressing objects: 100% (453/453), done.
+remote: Total 620 (delta 131), reused 618 (delta 131), pack-reused 0
+Receiving objects: 100% (620/620), 662.95 KiB | 1.57 MiB/s, done.
+Resolving deltas: 100% (131/131), done.
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up
+$ cd uranium
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (main)
+$ ls
+README.md
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (main)
+$ git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/sabiha
+  remotes/origin/session/nodejs-intro
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (main)
+$ git checkout sessio/branch
+error: pathspec 'sessio/branch' did not match any file(s) known to git
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (main)
+$ git checkout session/branch
+error: pathspec 'session/branch' did not match any file(s) known to git
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (main)
+$ git checkout session/nodejs-into
+error: pathspec 'session/nodejs-into' did not match any file(s) known to git
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (main)
+$ git checkout session/nodejs-intro
+Switched to a new branch 'session/nodejs-intro'
+branch 'session/nodejs-intro' set up to track 'origin/session/nodejs-intro'.
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (session/nodejs-intro)
+$ git branch -a
+  main
+* session/nodejs-intro
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/sabiha
+  remotes/origin/session/nodejs-intro
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (session/nodejs-intro)
+$ git push https://github.com/Darshit-dev/uranium.git
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'session/nodejs-intro' on GitHub by visiting:
+remote:      https://github.com/Darshit-dev/uranium/pull/new/session/nodejs-intro
+remote:
+To https://github.com/Darshit-dev/uranium.git
+ * [new branch]      session/nodejs-intro -> session/nodejs-intro
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (session/nodejs-intro)
+$ ^C
+
+busin@TheBest MINGW64 /h/Code devlopment/Function up/uranium (session/nodejs-intro)
+$
